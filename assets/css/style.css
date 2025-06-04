@@ -30,3 +30,8 @@
     padding: 1rem;
     flex-wrap: wrap;
 }
+.flex{
+    display:flex;
+    justify-content: end;
+    padding: 1rem;
+}
