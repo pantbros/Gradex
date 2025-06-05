@@ -8,13 +8,33 @@
 </head>
 <body>
     <div class="flex">
+        <h1>Sorted by <span id="sortedBy">Default</span></h1>
+        <div class="search">
+            <input type="search">
+        </div>
         <select name="" id="select">
-            <option value="select" disabled selected>Filter</option>
-            <option value="marks">By Marks</option>
-            <option value="Grade">By Grade</option>
+            <option value="select" disabled selected>Filters</option>
+            <option value="Marks">Marks</option>
+            <option value="Grade">Grade</option>
+            <option value="Name">Name</option>
+            <option value="Roll No">Roll No</option>
         </select>
     </div>
     <div id="root">
+        <table>
+            <thead>
+                <tr class="">
+                    <th>Student ID</th>
+                    <th>Student Name</th>
+                    <th>Student Marks</th>
+                    <th>Student Grade</th>
+                    <th>Student Result</th>
+                </tr>
+            </thead>
+            <tbody class="root">
+
+            </tbody>
+        </table>
     </div>
     <script type="module" src="assets/js/script.js"></script>
 </body>
